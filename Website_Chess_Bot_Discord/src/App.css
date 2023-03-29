@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  background-color: #2B2D31;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.Top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-image: url("./assets/Back.png");
+  background-repeat: repeat;
+  padding: 64px 0px;
+  gap: 16px;
+  height: 520px;
+}
+
+.Top img{
+  width: 120px;
+  margin: 0px;
+}
+
+.Top h1{
+  color: #7B61FF;
+  font-size: 64px;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.Top p{
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.Top button{
+  background-color: #7B61FF;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0px;
+  margin-top: 32px;
+  box-shadow: 0px 0px 32px 1px #0000001e;
+}
+
+.Top button:hover{
+  cursor: pointer;
+  box-shadow: 0px 0px 16px 0px #7B61FF;
+}
+
+.Bottom {
+  display: flex;
+  flex-direction: column;
+  width: 1252px;
+  margin: 64px auto 128px auto;
+}
+
+.Container {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.Command {
+  background-color: #313338;
+  display: flex;
+  border-radius: 8px;
+  align-items: center;
+  padding: 16px 32px;
+  gap: 64px;
+  width: 500px;
+}
+
+.Container .Command h1 {
+  color: #7B61FF;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.Container .Command p {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.Right {
+  flex: 1;
+  display: flex;
+  flex-direction: row-reverse;
+  /* border: red solid 1px; */
+}
+
+.Bottom img{
+  width: 584px;
+  margin: 0px;
+  /* padding-left: 42px; */
+}
+
+.Left {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 32px;
+  /* border: red solid 1px; */
+}
+
+.Bottom h1 {
+  color: white;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0px;
+}
