@@ -4,7 +4,7 @@ body {
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
-  background-color: #2B2D31;
+  background-color: #B7C0D8;
 }
 
 .App {
@@ -18,7 +18,7 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
-  background-image: url("./assets/Back.png");
+  background-image: url("./assets/BackBranco.png");
   background-repeat: repeat;
   padding: 64px 0px;
   gap: 16px;
@@ -39,12 +39,12 @@ body {
 
 .Top p{
   font-size: 20px;
-  color: white;
+  color: #2B2D31;
   font-weight: 600;
   margin: 0px;
 }
 
-.Top button{
+.Top a{
   background-color: #7B61FF;
   color: white;
   border: none;
@@ -55,9 +55,10 @@ body {
   margin: 0px;
   margin-top: 32px;
   box-shadow: 0px 0px 32px 1px #0000001e;
+  text-decoration: none;
 }
 
-.Top button:hover{
+.Top a:hover{
   cursor: pointer;
   box-shadow: 0px 0px 16px 0px #7B61FF;
 }
@@ -77,8 +78,9 @@ body {
 }
 
 .Command {
-  background-color: #313338;
+  background-color: #E8EDF9;
   display: flex;
+  /* justify-content: space-between; */
   border-radius: 8px;
   align-items: center;
   padding: 16px 32px;
@@ -94,7 +96,7 @@ body {
 }
 
 .Container .Command p {
-  color: white;
+  color: #2B2D31;
   font-size: 16px;
   font-weight: 600;
   margin: 0px;
@@ -122,7 +124,7 @@ body {
 }
 
 .Bottom h1 {
-  color: white;
+  color: #2B2D31;
   font-size: 32px;
   font-weight: 600;
   margin: 0px;
